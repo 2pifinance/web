@@ -1,16 +1,21 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Image from 'next/image'
 
 const Header = () => (
   <nav className="navbar navbar-expand-lg navbar-dark bg-transparent mt-4">
     <div className="container">
-      <a className="navbar-brand me-auto" href="/">
-        <Image src="/images/logo.svg" alt="2pi Finance" width="149" height="24" />
-      </a>
+      <Link href="/">
+        <a className="navbar-brand me-auto">
+          <Image src="/images/logo.svg" alt="2pi Finance" width="149" height="24" />
+        </a>
+      </Link>
 
-      <a href="https://app.2pi.finance" className="btn btn-primary shadow-none ms-auto" title="Launch app">
-        Launch app
-      </a>
+      <Link href="https://app.2pi.finance">
+        <a className="btn btn-primary shadow-none ms-auto" title="Launch app">
+          Launch app
+        </a>
+      </Link>
     </div>
   </nav>
 )
@@ -50,12 +55,16 @@ export default function Home() {
       </header>
 
       <p className="my-5 pt-5 text-center">
-        <a href="https://app.2pi.finance" className="btn btn-lg btn-primary fw-bold shadow-none me-3" title="Launch app">
-          Launch app
-        </a>
-        <a href="https://devs.2pi.finance" className="btn btn-lg btn-info fw-bold shadow-none ms-3" title="Devs API">
-          Devs API
-        </a>
+        <Link href="https://app.2pi.finance">
+          <a className="btn btn-lg btn-primary fw-bold shadow-none me-3" title="Launch app">
+            Launch app
+          </a>
+        </Link>
+        <Link href="https://devs.2pi.finance">
+          <a className="btn btn-lg btn-info fw-bold shadow-none ms-3" title="Devs API">
+            Devs API
+          </a>
+        </Link>
       </p>
     </div>
   )
