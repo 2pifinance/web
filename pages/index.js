@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 const Header = () => (
-  <nav className="navbar navbar-expand-lg navbar-dark bg-transparent mt-4">
+  <nav className="navbar navbar-expand-lg navbar-dark bg-transparent mt-4 pb-5">
     <div className="container">
       <Link href="/">
         <a className="navbar-brand me-auto">
@@ -54,18 +54,22 @@ export default function Home() {
         </h2>
       </header>
 
-      <p className="my-5 pt-5 text-center">
-        <Link href="https://app.2pi.finance">
-          <a className="btn btn-lg btn-primary fw-bold shadow-none me-3" title="Launch app">
-            Launch app
-          </a>
-        </Link>
-        <Link href="https://devs.2pi.finance">
-          <a className="btn btn-lg btn-info fw-bold shadow-none ms-3" title="Devs API">
-            Devs API
-          </a>
-        </Link>
-      </p>
+      <div className="row my-5 text-center">
+        <div className="col-lg-6 text-lg-end">
+          <Link href="https://app.2pi.finance">
+            <a className="btn btn-lg btn-primary fw-bold shadow-none" title="Launch app">
+              Launch app
+            </a>
+          </Link>
+        </div>
+        <div className="col-lg-6 text-lg-start mt-3 mt-lg-0">
+          <Link href="https://devs.2pi.finance">
+            <a className="btn btn-lg btn-info fw-bold shadow-none" title="Devs API">
+              Devs API
+            </a>
+          </Link>
+        </div>
+      </div>
     </div>
   )
 }
