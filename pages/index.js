@@ -46,26 +46,34 @@ export default function Home() {
 
       <header className="mt-5 pt-5 text-center">
         <h1 className="h1 text-white fw-bold mt-5 mb-2">
-          Welcome to 2pi.finance
+          2pi.finance
         </h1>
 
-        <h2 className="h4 mb-4 text-white fw-bold text-light">
+        <h2 className="h5 mb-4 mt-3 text-white fw-bold text-light">
           We build the best tools for DeFi
         </h2>
+
+        <div className="row justify-content-center">
+          <div className="col-lg-8 col-xl-6">
+            <p className="mb-0">
+              Let's build the next generation DeFi products to connect any legacy non crypto entrepreneur to this world. Join us, invest, and lead the revolution.
+            </p>
+          </div>
+        </div>
       </header>
 
       <div className="row my-5 text-center">
-        <div className="col-lg-6 text-lg-end">
+        <div className="col-md-6 text-md-end d-grid d-md-block">
           <Link href="https://app.2pi.finance">
-            <a className="btn btn-lg btn-primary fw-bold shadow-none" title="Launch app">
-              Launch app
+            <a className="btn btn-lg btn-primary fw-bold shadow-none px-4" title="Launch app">
+              App
             </a>
           </Link>
         </div>
-        <div className="col-lg-6 text-lg-start mt-3 mt-lg-0">
+        <div className="col-md-6 text-md-start d-grid d-md-block mt-3 mt-md-0">
           <Link href="https://devs.2pi.finance">
-            <a className="btn btn-lg btn-info fw-bold shadow-none" title="Devs API">
-              Devs API
+            <a className="btn btn-lg btn-dark fw-bold shadow-none px-4" title="Devs API">
+              Devs
             </a>
           </Link>
         </div>
