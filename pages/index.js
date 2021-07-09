@@ -44,7 +44,7 @@ export default function Home() {
 
       <Header />
 
-      <header className="mt-5 pt-5 text-center">
+      <header className="mt-5 pt-4 text-center">
         <h1 className="display-4 text-white fw-bold mt-5 mb-4">
           2pi.finance
         </h1>
