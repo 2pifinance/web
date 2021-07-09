@@ -45,13 +45,9 @@ export default function Home() {
       <Header />
 
       <header className="mt-5 pt-5 text-center">
-        <h1 className="h1 text-white fw-bold mt-5 mb-2">
+        <h1 className="display-4 text-white fw-bold mt-5 mb-4">
           2pi.finance
         </h1>
-
-        <h2 className="h5 mb-4 mt-3 text-white fw-bold text-light">
-          We build the best tools for DeFi
-        </h2>
 
         <div className="row justify-content-center">
           <div className="col-lg-8 col-xl-6">
@@ -73,7 +69,7 @@ export default function Home() {
         <div className="col-md-6 text-md-start d-grid d-md-block mt-3 mt-md-0">
           <Link href="https://devs.2pi.finance">
             <a className="btn btn-lg btn-dark fw-bold shadow-none px-4" title="Devs API">
-              Devs
+              API
             </a>
           </Link>
         </div>
