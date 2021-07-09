@@ -56,7 +56,7 @@ export default function Home() {
         <div className="row justify-content-center">
           <div className="col-lg-8 col-xl-6">
             <p className="mb-0">
-              Let's build the next generation DeFi products to connect any legacy non crypto entrepreneur to this world. Join us, invest, and lead the revolution.
+              Let&apos;s build the next generation DeFi products to connect any legacy non crypto entrepreneur to this world. Join us, invest, and lead the revolution.
             </p>
           </div>
         </div>
