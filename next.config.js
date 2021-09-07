@@ -2,8 +2,7 @@ const path = require('path')
 
 module.exports = {
   images: {
-    loader: 'imgix',
-    path:   '',
+    loader: 'custom'
   },
   reactStrictMode: true,
   sassOptions: {

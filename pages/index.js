@@ -7,7 +7,7 @@ const Header = () => (
     <div className="container">
       <Link href="/">
         <a className="navbar-brand me-auto">
-          <Image src="/images/logo.svg" alt="2pi Finance" width="149" height="24" />
+          <Image src="/images/logo.svg" alt="2pi Finance" width="149" height="24" unoptimized={true} />
         </a>
       </Link>
 
