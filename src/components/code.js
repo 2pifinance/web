@@ -13,7 +13,7 @@ fetch(url, options)
   .catch(error => console.error(\`Ping error: \${error}\`))
 `.trim()
 
-  useEffect(Prism.highlightAll, [])
+  useEffect(() => { Prism.highlightAll() }, [])
 
   return (
     <div className="small mt-lg-n4">

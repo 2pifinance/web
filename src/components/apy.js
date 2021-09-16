@@ -15,8 +15,8 @@ const APY = () => {
     )
   } else {
     return (
-      <div class="spinner-border mb-2" role="status">
-        <span class="visually-hidden">Loading...</span>
+      <div className="spinner-border mb-2" role="status">
+        <span className="visually-hidden">Loading...</span>
       </div>
     )
   }
