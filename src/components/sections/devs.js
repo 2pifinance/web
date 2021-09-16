@@ -59,7 +59,7 @@ const DevsSection = () => (
               </p>
 
               <p className="mb-0">
-                Get in touch with our team, who will guide you through the onboarding and compliance process.
+                Get in touch with our team, who will guide you through the onboarding process.
               </p>
             </div>
           </div>
@@ -95,7 +95,7 @@ const DevsSection = () => (
               </p>
 
               <p className="mb-0">
-                End to end management via APIs.
+                End to end management via our decentralized APIs.
               </p>
             </div>
           </div>
