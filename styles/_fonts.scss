@@ -1,35 +1,26 @@
 @font-face {
-  font-family: 'Raleway';
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-  src: url(../public/fonts/Raleway-Medium.ttf);
-  src: local('Raleway Medium'), local('Raleway-Medium'), url(../public/fonts/Raleway-Medium.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Raleway';
+  font-family: 'proxima-nova';
   font-weight: 600;
   font-style: normal;
   font-display: swap;
-  src: url(../public/fonts/Raleway-SemiBold.ttf);
-  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(../public/fonts/Raleway-SemiBold.ttf) format('truetype');
+  src: url(../public/fonts/proxima-nova/proxima-nova-semi-bold.woff2) format('woff2'), url(../public/fonts/proxima-nova/proxima-nova-semi-bold.woff) format('woff'), url(../public/fonts/proxima-nova/proxima-nova-semi-bold.otf) format('opentype');
+  src: local('Proxima Nova SemiBold'), local('Proxima-Nova-SemiBold'), url(../public/fonts/proxima-nova/proxima-nova-semi-bold.otf) format('opentype');
 }
 
 @font-face {
-  font-family: 'Raleway';
-  font-weight: 700;
+  font-family: 'proxima-nova';
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url(../public/fonts/Raleway-Bold.ttf);
-  src: local('Raleway Bold'), local('Raleway-Bold'), url(../public/fonts/Raleway-Bold.ttf) format('truetype');
+  src: url(../public/fonts/proxima-nova/proxima-nova-normal.woff2) format('woff2'), url(../public/fonts/proxima-nova/proxima-nova-normal.woff) format('woff'), url(../public/fonts/proxima-nova/proxima-nova-normal.otf) format('opentype');
+  src: local('Proxima Nova Medium'), local('Proxima-Nova-Medium'), url(../public/fonts/proxima-nova/proxima-nova-normal.otf) format('opentype');
 }
 
 @font-face {
-  font-family: 'Raleway';
-  font-weight: 800;
+  font-family: 'ocr-a-std';
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url(../public/fonts/Raleway-ExtraBold.ttf);
-  src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url(../public/fonts/Raleway-ExtraBold.ttf) format('truetype');
+  src: url(../public/fonts/ocr-a-std/ocr-a-std-normal.woff2) format('woff2'), url(../public/fonts/ocr-a-std/ocr-a-std-normal.woff) format('woff'), url(../public/fonts/ocr-a-std/ocr-a-std-normal.otf) format('opentype');
+  src: local('Ocr A Std Medium'), local('Ocr-A-Std-Medium'), url(../public/fonts/ocr-a-std/ocr-a-std-normal.otf) format('opentype');
 }

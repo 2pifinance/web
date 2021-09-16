@@ -1,49 +1,37 @@
 // Color system
 
-$body-bg:    #242424;
-$body-color: #ffffff;
+$green:     #56e39f;
+$white:     #ffffff;
 
-$cyan:     $body-color;
-$gray-900: $body-bg;
-$green:    #3cf281;
+$body-bg:    #000000;
+$body-color: $white;
 
-$primary:   #0f80aa;
-$secondary: #70d6ff;
+$primary:   #2f3a85;
+$secondary: #7f7f7f;
 $success:   $green;
-$info:      #1d4e89;
-$warning:   #ffd670;
-$danger:    #ff70a6;
-$light:     #44d9e8;
-$dark:      $gray-900;
+$info:      #2b79e0;
+// $warning:   #efae2c;
+// $danger:    #ff70a6;
+$light:     #d6d6d6;
 
-$component-active-bg: $primary;
+$enable-negative-margins: true;
 
-// Custom colors
+// Components
 
-$primary-dark: #0f80aa;
+$border-radius: .75rem;
 
-$theme-colors: (
-  "primary":      $primary,
-  "secondary":    $secondary,
-  "success":      $success,
-  "info":         $info,
-  "warning":      $warning,
-  "danger":       $danger,
-  "light":        $light,
-  "dark":         $dark,
-  "primary-dark": $primary-dark
-);
+// Dropdowns
 
-// Borders
-
-$border-radius: .5rem !default;
-$border-radius-sm: .4rem !default;
-
-// Buttons
-
-$btn-disabled-opacity: .50;
+$dropdown-link-color:       $white;
+$dropdown-link-hover-color: #000000;
+$dropdown-link-hover-bg:    rgba($success, .75);
 
 // Fonts
 
-$font-family-sans-serif: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-sans-serif: "proxima-nova", sans-serif;
+$font-family-monospace: "ocr-a-std", monospace;
 $web-font-path: 'data:text/css;base64,';
+
+// Navbars
+
+$navbar-dark-color: $white;

@@ -1,0 +1,45 @@
+{
+  "pages/*.js": {
+    "type": "page",
+    "alternate": "pages/{}.js"
+  },
+
+  "styles/app.scss": {
+    "type": "stylesheet"
+  },
+
+  "styles/*.scss": {
+    "type": "stylesheet"
+  },
+
+  "src/app/*.js": {
+    "type": "app"
+  },
+
+  "src/components/*.js": {
+    "type": "component",
+    "dispatch": "yarn test --silent=true --watchAll=false src/components/{}.test.js",
+    "alternate": "src/components/{}.test.js"
+  },
+
+  "src/helpers/*.js": {
+    "type": "helper",
+    "alternate": "src/helpers/{}.test.js"
+  },
+
+  "src/components/*.test.js": {
+    "type": "tcomponent",
+    "dispatch": "yarn test --silent=true --watchAll=false src/components/{}.test.js",
+    "alternate": "src/components/{}.js"
+  },
+
+  "src/helpers/*.test.js": {
+    "type": "thelpers",
+    "dispatch": "yarn test --silent=true --watchAll=false src/components/{}.test.js",
+    "alternate": "src/components/{}.js"
+  },
+
+  "src/index.js": {
+    "type": "index"
+  }
+}
