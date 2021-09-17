@@ -10,7 +10,7 @@ const MainSection = () => (
       <Header />
 
       <header className="text-center">
-        <h1 className="h1 text-white fw-bold monospace d-none d-lg-block">
+        <h1 className="h1 text-white fw-bold monospace mt-n3 d-none d-lg-block">
           DeFi SuperPowers for Fintechs
         </h1>
         <h1 className="h3 text-white fw-bold monospace mt-n4 d-none d-md-block d-lg-none">
@@ -27,12 +27,12 @@ const MainSection = () => (
 
       <div className="row justify-content-center my-5">
         <div className="col-lg-8 col-xl-7 pt-0 pt-sm-5 pt-lg-0">
-          <p className="lead text-center mt-5 pt-5 mb-4 d-none d-lg-block">
+          <p className="lead text-center mt-5 mb-4 d-none d-lg-block">
             2PI connects your US Dollars via regulated partners into a digital
             dollar stablecoin, and supplies them to the 2PI protocol to generate
             secure high yield interest via APIs.
           </p>
-          <p className="text-center my-5 pt-3 d-lg-none">
+          <p className="text-center mt-5 mt-md-0 mb-5 pt-4 pt-sm-0 d-lg-none">
             2PI connects your US Dollars via regulated partners into a digital
             dollar stablecoin, and supplies them to the 2PI protocol to generate
             secure high yield interest via APIs.

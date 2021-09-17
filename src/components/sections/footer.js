@@ -30,41 +30,41 @@ const FooterSection = () => (
 
       <div className="row">
         <div className="col">
-          <p className="small text-muted">
+          <p className="small">
             ©2021 2PI Ltd.
           </p>
         </div>
 
         <div className="col-auto text-right">
-          <p className="small text-muted d-inline me-3">
+          <p className="small d-inline me-3">
             Join the community:
           </p>
 
           <ul className="list-inline lead d-inline">
             <li className="list-inline-item mx-2">
               <Link href="https://twitter.com/2piFinance">
-                <a className="text-muted text-decoration-none" target="_blank" rel="noreferrer" title="Tweet us!">
+                <a className="text-white text-decoration-none" target="_blank" rel="noreferrer" title="Tweet us!">
                   <i className="bi-twitter"></i>
                 </a>
               </Link>
             </li>
             <li className="list-inline-item mx-2">
               <Link href="https://discord.com/invite/h8VG2XcwvT">
-                <a className="text-muted text-decoration-none" target="_blank" rel="noreferrer" title="Talk with us!">
+                <a className="text-white text-decoration-none" target="_blank" rel="noreferrer" title="Talk with us!">
                   <i className="bi-discord"></i>
                 </a>
               </Link>
             </li>
             <li className="list-inline-item mx-2">
               <Link href="https://2pifinance.medium.com">
-                <a className="text-muted text-decoration-none" target="_blank" rel="noreferrer" title="Read us!">
+                <a className="text-white text-decoration-none" target="_blank" rel="noreferrer" title="Read us!">
                   <i className="bi-file-text"></i>
                 </a>
               </Link>
             </li>
             <li className="list-inline-item mx-2">
               <Link href="mailto:hello@2pi.finance">
-                <a className="text-muted text-decoration-none" title="Email us!">
+                <a className="text-white text-decoration-none" title="Email us!">
                   <i className="bi-envelope"></i>
                 </a>
               </Link>
