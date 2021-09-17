@@ -17,7 +17,7 @@ fetch(url, options)
 
   return (
     <div className="small mt-lg-n4">
-      <pre className="line-numbers bg-transparent mt-lg-5 pt-lg-5">
+      <pre className="line-numbers bg-transparent scrollbar-none mt-lg-5 pt-lg-5">
         <code className="language-js">{code}</code>
       </pre>
     </div>
