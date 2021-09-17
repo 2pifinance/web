@@ -25,7 +25,7 @@ const DevsSection = () => (
             With just a few lines of code, you can implement 2PI in an afternoon.
           </p>
 
-          <p className="mb-1">
+          <div className="mb-1">
             <Link href="https://pjtl5731h0l.typeform.com/to/lm3ovT3a" target="_blank">
               <a className="text-success text-decoration-none">
                 <div className="d-flex">
@@ -38,7 +38,7 @@ const DevsSection = () => (
                 </div>
               </a>
             </Link>
-          </p>
+          </div>
         </div>
       </div>
 

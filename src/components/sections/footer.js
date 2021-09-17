@@ -19,7 +19,7 @@ const FooterSection = () => (
         Ready to get started?
       </h3>
 
-      <p className="my-3 text-center">
+      <div className="my-3 text-center">
         <Link href="https://app.2pi.finance">
           <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4 ms-auto mt-n2" title="Launch app">
             <div className="d-flex">
@@ -32,7 +32,7 @@ const FooterSection = () => (
             </div>
           </a>
         </Link>
-      </p>
+      </div>
 
       <hr className="mt-5 mb-3" />
 
