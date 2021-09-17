@@ -15,11 +15,11 @@ const FooterSection = () => (
         </div>
       </div>
 
-      <h3 className="h4 monospace text-center my-4">
+      <h3 className="h4 monospace text-center mt-4">
         Ready to get started?
       </h3>
 
-      <div className="my-3 text-center">
+      <div className="mt-4 pb-4 text-center">
         <Link href="https://app.2pi.finance">
           <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4 ms-auto mt-n2" title="Launch app">
             <div className="d-flex">
