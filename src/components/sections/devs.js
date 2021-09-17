@@ -123,10 +123,8 @@ const DevsSection = () => (
           </a>
         </Link>
       </p>
-    </div>
 
-    <div className="my-5 w-100">
-      <Image src="/images/hr.svg" alt="Horizontal line" width="1366" height="1" unoptimized={true} />
+      <div className="hr w-100 my-5"></div>
     </div>
   </section>
 )
