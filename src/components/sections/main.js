@@ -76,7 +76,7 @@ const MainSection = () => (
       </div>
     </div>
 
-    <div className="my-5">
+    <div className="my-5 w-100">
       <Image src="/images/hr.svg" alt="Horizontal line" width="1366" height="1" unoptimized={true} />
     </div>
   </section>

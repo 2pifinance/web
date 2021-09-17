@@ -5,8 +5,8 @@ import Spaceship from '../spaceship'
 const FooterSection = () => (
   <section id="footer" className="pb-3">
     <div className="container">
-      <h2 className="h2 monospace text-center my-4">
-        Hey DeFi user, join our community
+      <h2 className="h3 monospace text-center my-4">
+        Hey DeFi user,<br />join our community
       </h2>
 
       <div className="row justify-content-center">
@@ -37,47 +37,49 @@ const FooterSection = () => (
       <hr className="mt-5 mb-3" />
 
       <div className="row">
-        <div className="col">
-          <p className="small">
+        <div className="col-sm text-center text-sm-start">
+          <p className="small text-nowrap">
             ©2021 2PI Ltd.
           </p>
         </div>
 
-        <div className="col-auto text-right">
-          <p className="small d-inline me-3">
-            Join the community:
-          </p>
+        <div className="col-sm-auto mt-sm-n1">
+          <div className="text-center text-sm-end">
+            <p className="small d-inline me-3">
+              Join the community:
+            </p>
 
-          <ul className="list-inline lead d-inline">
-            <li className="list-inline-item mx-2">
-              <Link href="https://twitter.com/2piFinance">
-                <a className="text-white text-decoration-none" target="_blank" rel="noreferrer" title="Tweet us!">
-                  <i className="bi-twitter"></i>
-                </a>
-              </Link>
-            </li>
-            <li className="list-inline-item mx-2">
-              <Link href="https://discord.com/invite/h8VG2XcwvT">
-                <a className="text-white text-decoration-none" target="_blank" rel="noreferrer" title="Talk with us!">
-                  <i className="bi-discord"></i>
-                </a>
-              </Link>
-            </li>
-            <li className="list-inline-item mx-2">
-              <Link href="https://2pifinance.medium.com">
-                <a className="text-white text-decoration-none" target="_blank" rel="noreferrer" title="Read us!">
-                  <i className="bi-file-text"></i>
-                </a>
-              </Link>
-            </li>
-            <li className="list-inline-item mx-2">
-              <Link href="mailto:hello@2pi.finance">
-                <a className="text-white text-decoration-none" title="Email us!">
-                  <i className="bi-envelope"></i>
-                </a>
-              </Link>
-            </li>
-          </ul>
+            <ul className="list-inline lead d-inline">
+              <li className="list-inline-item mx-2">
+                <Link href="https://twitter.com/2piFinance">
+                  <a className="text-white text-decoration-none opacity-75" target="_blank" rel="noreferrer" title="Tweet us!">
+                    <i className="bi-twitter"></i>
+                  </a>
+                </Link>
+              </li>
+              <li className="list-inline-item mx-2">
+                <Link href="https://discord.com/invite/h8VG2XcwvT">
+                  <a className="text-white text-decoration-none opacity-75" target="_blank" rel="noreferrer" title="Talk with us!">
+                    <i className="bi-discord"></i>
+                  </a>
+                </Link>
+              </li>
+              <li className="list-inline-item mx-2">
+                <Link href="https://2pifinance.medium.com">
+                  <a className="text-white text-decoration-none opacity-75" target="_blank" rel="noreferrer" title="Read us!">
+                    <i className="bi-file-text"></i>
+                  </a>
+                </Link>
+              </li>
+              <li className="list-inline-item mx-2">
+                <Link href="mailto:hello@2pi.finance">
+                  <a className="text-white text-decoration-none opacity-75" title="Email us!">
+                    <i className="bi-envelope"></i>
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

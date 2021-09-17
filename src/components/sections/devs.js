@@ -17,7 +17,7 @@ const DevsSection = () => (
         </div>
 
         <div className="col-lg-4 pt-lg-5 px-3 px-lg-0">
-          <h3 className="h4 monospace mt-lg-5 pt-lg-4">
+          <h3 className="h3 monospace mt-lg-5 pt-lg-4">
             For developers,<br className="d-none d-lg-block" /> by developers
           </h3>
 
@@ -102,9 +102,13 @@ const DevsSection = () => (
         </div>
       </div>
 
-      <h2 className="h3 monospace text-center my-5">
-        Make your capital work for you and start earning yield today
-      </h2>
+      <div className="row justify-content-center">
+        <div className="col-lg-8">
+          <h2 className="h4 monospace text-center my-5">
+            Make your capital work for you and start earning yield today
+          </h2>
+        </div>
+      </div>
 
       <div className="row justify-content-center">
         <div className="col-lg-6">
@@ -121,7 +125,7 @@ const DevsSection = () => (
       </p>
     </div>
 
-    <div className="my-5">
+    <div className="my-5 w-100">
       <Image src="/images/hr.svg" alt="Horizontal line" width="1366" height="1" unoptimized={true} />
     </div>
   </section>
