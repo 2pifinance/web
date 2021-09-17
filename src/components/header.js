@@ -12,16 +12,16 @@ const Header = () => {
       <div className="container">
         <Link href="/">
           <a className="navbar-brand me-auto mt-n2 ms-n4 d-none d-lg-inline">
-            <Image src="/images/logo.svg" alt="2pi Finance" width="136" height="108" unoptimized={true} />
+            <Image src="/images/logo.svg" alt="2pi" width="136" height="108" unoptimized={true} />
           </a>
         </Link>
         <Link href="/">
           <a className="navbar-brand me-auto ms-n3 d-lg-none">
-            <Image src="/images/logo.svg" alt="2pi Finance" width="95" height="76" unoptimized={true} />
+            <Image src="/images/logo.svg" alt="2pi" width="95" height="76" unoptimized={true} />
           </a>
         </Link>
 
-        <button className="navbar-toggler"
+        <button className="navbar-toggler border-0"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#menu"

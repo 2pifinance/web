@@ -2,10 +2,10 @@ import Head from 'next/head'
 
 const Home = () => (
   <Head>
-    <title>2pi Finance</title>
+    <title>2pi</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="2pi Finance" />
+    <meta name="description" content="2pi" />
     <meta name="theme-color" content="#2f3a85" />
 
     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any" />
@@ -15,11 +15,11 @@ const Home = () => (
     <link rel="manifest" href="/manifest.json" />
 
     <meta property="og:local" content="en_US" />
-    <meta property="og:title" content="2pi Finance" />
-    <meta property="og:description" content="2pi Finance" />
+    <meta property="og:title" content="2pi" />
+    <meta property="og:description" content="2pi" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://2pi.finance" />
-    <meta property="og:image" content="https://2pi.finance/images/logo512.png" />
+    <meta property="og:url" content="https://2pi.network" />
+    <meta property="og:image" content="https://2pi.network/images/logo512.png" />
   </Head>
 )
 

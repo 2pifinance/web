@@ -26,7 +26,7 @@ const DevsSection = () => (
           </p>
 
           <p className="mb-1">
-            <Link href="https://api-docs.2pi.finance/" target="_blank">
+            <Link href="https://pjtl5731h0l.typeform.com/to/lm3ovT3a" target="_blank">
               <a className="text-success text-decoration-none">
                 <div className="d-flex">
                   <div className="ms-2 mt-n3 ms-n4 me-n2">

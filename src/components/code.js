@@ -4,7 +4,7 @@ import Prism from 'prismjs'
 const Code = () => {
   const code = `
 const fetch   = require('node-fetch')
-const url     = 'https://api.2pi.finance/ping'
+const url     = 'https://api.2pi.network/ping'
 const options = { method: 'GET', headers: { Accept: 'application/json' } }
 
 fetch(url, options)
