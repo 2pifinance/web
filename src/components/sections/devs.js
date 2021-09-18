@@ -95,7 +95,7 @@ const DevsSection = () => (
               </p>
 
               <p className="mb-0">
-                End to end management via our decentralized APIs.
+                End to end access management via our decentralized APIs
               </p>
             </div>
           </div>
