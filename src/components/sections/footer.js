@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Links from '../links'
 import Spaceship from '../spaceship'
 
 const FooterSection = () => (
@@ -44,7 +45,11 @@ const FooterSection = () => (
         </div>
 
         <div className="col-sm-auto mt-sm-n1">
-          <div className="text-center text-sm-end">
+          <div className="d-sm-none">
+            <Links />
+          </div>
+
+          <div className="text-center text-sm-end d-none d-sm-block">
             <p className="small d-inline me-3">
               Join the community:
             </p>
