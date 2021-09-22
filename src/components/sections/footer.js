@@ -56,7 +56,7 @@ const FooterSection = () => (
 
             <ul className="list-inline lead d-inline">
               <li className="list-inline-item mx-2">
-                <Link href="https://twitter.com/2piFinance">
+                <Link href="https://twitter.com/2piNetwork">
                   <a className="text-white text-decoration-none opacity-75" target="_blank" rel="noreferrer" title="Tweet us!">
                     <i className="bi-twitter"></i>
                   </a>

@@ -9,7 +9,7 @@ const Header = () => (
 
     <div className="d-flex justify-content-center pb-2">
       <div className="mx-4">
-        <Link href="https://twitter.com/2piFinance">
+        <Link href="https://twitter.com/2piNetwork">
           <a className="h2 text-white text-decoration-none" target="_blank" rel="noreferrer" title="Tweet us!">
             <i className="bi-twitter"></i>
           </a>

@@ -88,7 +88,7 @@ const Header = () => {
 
                 <ul className="dropdown-menu bg-blur border-alpha text-end dropdown-menu-end" aria-labelledby="community-menu">
                   <li>
-                    <Link href="https://twitter.com/2piFinance">
+                    <Link href="https://twitter.com/2piNetwork">
                       <a className="dropdown-item" target="_blank">
                         Twitter
                       </a>
