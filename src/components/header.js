@@ -109,7 +109,7 @@ const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://docs.2pi.finance/">
+                    <Link href="https://docs.2pi.network/">
                       <a className="dropdown-item" target="_blank">
                         Docs
                       </a>
@@ -119,7 +119,7 @@ const Header = () => {
               </li>
             </ul>
 
-            <Link href="https://app.2pi.finance">
+            <Link href="https://app.2pi.network">
               <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4 ms-3 mt-n2" title="Launch app">
                 <div className="d-flex">
                   <div className="me-2 mt-1 mb-n1">
@@ -185,7 +185,7 @@ const Header = () => {
             <hr className="my-0" />
 
             <div data-bs-dismiss="offcanvas" data-bs-target="#menu">
-              <Link href="https://app.2pi.finance">
+              <Link href="https://app.2pi.network">
                 <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4 mt-4" title="Launch app">
                   <div className="d-flex">
                     <div className="me-2 mt-1 mb-n1">

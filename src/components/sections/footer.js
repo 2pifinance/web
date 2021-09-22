@@ -21,7 +21,7 @@ const FooterSection = () => (
       </h3>
 
       <div className="mt-4 pb-4 text-center">
-        <Link href="https://app.2pi.finance">
+        <Link href="https://app.2pi.network">
           <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4 ms-auto mt-n2" title="Launch app">
             <div className="d-flex">
               <div className="me-2 mt-1 mb-n1">
@@ -77,7 +77,7 @@ const FooterSection = () => (
                 </Link>
               </li>
               <li className="list-inline-item mx-2">
-                <Link href="mailto:hello@2pi.finance">
+                <Link href="mailto:hello@2pi.network">
                   <a className="text-white text-decoration-none opacity-75" title="Email us!">
                     <i className="bi-envelope"></i>
                   </a>

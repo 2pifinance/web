@@ -33,7 +33,7 @@ const Header = () => (
       </div>
 
       <div className="mx-4">
-        <Link href="mailto:hello@2pi.finance">
+        <Link href="mailto:hello@2pi.network">
           <a className="h2 text-white text-decoration-none" title="Email us!">
             <i className="bi-envelope"></i>
           </a>
