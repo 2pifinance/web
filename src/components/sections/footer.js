@@ -11,7 +11,7 @@ const FooterSection = () => (
       </h2>
 
       <div className="row justify-content-center">
-        <div className="col-lg-9">
+        <div className="col-lg-9 col-xl-8 col-xxl-7">
           <Spaceship />
         </div>
       </div>
