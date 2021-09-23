@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 const Home = () => (
   <Head>
-    <title>2pi</title>
+    <title>2PI</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="2pi" />
