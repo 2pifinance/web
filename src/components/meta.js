@@ -20,6 +20,8 @@ const Home = () => (
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://2pi.network" />
     <meta property="og:image" content="https://2pi.network/images/logo512.png" />
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=smoothscroll"></script>
   </Head>
 )
 
