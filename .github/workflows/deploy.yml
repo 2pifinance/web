@@ -1,13 +1,10 @@
-name: Deploy
+name: Test
 
-on:
-  push:
-    branches:
-      - next
+on: push
 
 jobs:
   build:
-    name: Build
+    name: Test
     runs-on: ubuntu-latest
 
     steps:
@@ -24,31 +21,4 @@ jobs:
       run: yarn install
 
     - name: Build
-      run: yarn build
-
-    - name: Upload
-      uses: actions/upload-artifact@v2
-      with:
-        name: build-files
-        path: ./out
-
-  deploy:
-    name: Deploy
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-
-    - name: Download
-      uses: actions/download-artifact@v2
-      with:
-        name: build-files
-        path: ./out
-
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        cname: 2pi.network
-        publish_branch: pages
-        publish_dir: ./out
+      run: yarn test
