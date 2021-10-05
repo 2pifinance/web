@@ -10,8 +10,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@2pi-network/js-sdk": "^0.1.8",
     "@lottiefiles/react-lottie-player": "^3.4.1",
-    "@popperjs/core": "^2.10.1",
+    "@popperjs/core": "^2.10.2",
     "babel-plugin-prismjs": "^2.1.0",
     "bootstrap": "^5.1.1",
     "bootstrap-icons": "^1.5.0",
