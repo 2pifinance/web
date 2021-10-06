@@ -8,7 +8,7 @@ const APY = () => {
   const [apy, setApy] = useState()
 
   useEffect(() => {
-    const tokens   = ['dai', 'usdt', 'usdc']
+    const tokens   = ['dai', 'usdc']
     const provider = new ethers.providers.JsonRpcProvider(rpcUrl)
     const twoPi    = new TwoPi(chainId, provider)
     const vaults   = twoPi.getVaults().filter(
