@@ -43,22 +43,34 @@ const FooterSection = () => (
 
       <div className="d-flex flex-column flex-sm-row flex-wrap align-items-center justify-content-evenly">
         <div className="m-3">
-          <Image src="/images/logos/north_island.png" alt="North Island Ventures" width="180" height="37" unoptimized={true} />
+          <a href="https://www.northisland.ventures" target="_blank" rel="noreferrer">
+            <Image src="/images/logos/niv.svg" alt="North Island Ventures" width="180" height="37" unoptimized={true} />
+          </a>
         </div>
         <div className="m-3">
-          <Image src="/images/logos/au21.png" alt="AU21 Capital" width="120" height="41" unoptimized={true} />
+          <a href="https://au21.capital" target="_blank" rel="noreferrer">
+            <Image src="/images/logos/au21.png" alt="AU21 Capital" width="120" height="41" unoptimized={true} />
+          </a>
         </div>
         <div className="m-3">
-          <Image src="/images/logos/11-11dg.svg" alt="11-11 DG Partners" width="150" height="32" unoptimized={true} />
+          <a href="https://www.11-11dg.partners" target="_blank" rel="noreferrer">
+            <Image src="/images/logos/11-11dg.svg" alt="11-11 DG Partners" width="150" height="32" unoptimized={true} />
+          </a>
         </div>
         <div className="m-3">
-          <Image src="/images/logos/node.svg" alt="Node" width="120" height="27" unoptimized={true} />
+          <a href="https://www.node.capital" target="_blank" rel="noreferrer">
+            <Image src="/images/logos/node.svg" alt="Node" width="120" height="27" unoptimized={true} />
+          </a>
         </div>
         <div className="m-3">
-          <Image src="/images/logos/kosmos.png" alt="Kosmos" width="150" height="56" unoptimized={true} />
+          <a href="https://www.kosmos.vc" target="_blank" rel="noreferrer">
+            <Image src="/images/logos/kosmos.png" alt="Kosmos" width="150" height="56" unoptimized={true} />
+          </a>
         </div>
         <div className="m-3">
-          <Image src="/images/logos/meld.png" alt="Meld Ventures" width="66" height="80" unoptimized={true} />
+          <a href="https://www.meld.ventures" target="_blank" rel="noreferrer">
+            <Image src="/images/logos/meld.png" alt="Meld Ventures" width="66" height="80" unoptimized={true} />
+          </a>
         </div>
       </div>
 
