@@ -58,7 +58,7 @@ const FooterSection = () => (
           <Image src="/images/logos/kosmos.png" alt="Kosmos" width="150" height="56" unoptimized={true} />
         </div>
         <div className="m-3">
-          <Image src="/images/logos/meld.png" alt="Rocket" width="66" height="80" unoptimized={true} />
+          <Image src="/images/logos/meld.png" alt="Meld Ventures" width="66" height="80" unoptimized={true} />
         </div>
       </div>
 
