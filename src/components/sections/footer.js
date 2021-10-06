@@ -35,6 +35,33 @@ const FooterSection = () => (
         </Link>
       </div>
 
+      <div className="hr w-100 my-5"></div>
+
+      <h2 className="h3 monospace text-center my-4">
+        Strategic Backers
+      </h2>
+
+      <div className="d-flex flex-column flex-sm-row flex-wrap align-items-center justify-content-evenly">
+        <div className="m-3">
+          <Image src="/images/logos/north_island.png" alt="North Island Ventures" width="180" height="37" unoptimized={true} />
+        </div>
+        <div className="m-3">
+          <Image src="/images/logos/au21.png" alt="AU21 Capital" width="120" height="41" unoptimized={true} />
+        </div>
+        <div className="m-3">
+          <Image src="/images/logos/11-11dg.svg" alt="11-11 DG Partners" width="150" height="32" unoptimized={true} />
+        </div>
+        <div className="m-3">
+          <Image src="/images/logos/node.svg" alt="Node" width="120" height="27" unoptimized={true} />
+        </div>
+        <div className="m-3">
+          <Image src="/images/logos/kosmos.png" alt="Node" width="150" height="56" unoptimized={true} />
+        </div>
+        <div className="m-3">
+          <Image src="/images/logos/meld.png" alt="Rocket" width="66" height="80" unoptimized={true} />
+        </div>
+      </div>
+
       <hr className="mt-5 mb-3" />
 
       <div className="row">
@@ -76,7 +103,7 @@ const FooterSection = () => (
                   </a>
                 </Link>
               </li>
-              <li className="list-inline-item mx-2">
+              <li className="list-inline-item ms-2">
                 <Link href="mailto:hello@2pi.network">
                   <a className="text-white text-decoration-none opacity-75" title="Email us!">
                     <i className="bi-envelope"></i>
