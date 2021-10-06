@@ -53,7 +53,7 @@ const MainSection = () => (
           <APY />
 
           <p className="small">
-            Average APY on StableCoins
+            Average yield on stablecoins
           </p>
         </div>
         <div className="col-sm-4 col-lg-3 col-xl-2 offset-sm-2 offset-lg-1 text-center">
