@@ -27,7 +27,7 @@ const Header = () => (
       <div className="mx-4">
         <Link href="https://2pifinance.medium.com">
           <a className="h2 text-white text-decoration-none" target="_blank" rel="noreferrer" title="Read us!">
-            <i className="bi-file-text"></i>
+            <i className="bi-medium"></i>
           </a>
         </Link>
       </div>

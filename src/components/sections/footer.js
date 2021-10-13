@@ -111,7 +111,7 @@ const FooterSection = () => (
               <li className="list-inline-item mx-2">
                 <Link href="https://2pifinance.medium.com">
                   <a className="text-white text-decoration-none opacity-75" target="_blank" rel="noreferrer" title="Read us!">
-                    <i className="bi-file-text"></i>
+                    <i className="bi-medium"></i>
                   </a>
                 </Link>
               </li>
