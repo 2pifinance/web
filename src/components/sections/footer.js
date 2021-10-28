@@ -83,44 +83,55 @@ const FooterSection = () => (
           </p>
         </div>
 
-        <div className="col-sm-auto mt-sm-n1">
+        <div className="col-sm-auto text-end mt-sm-n1">
           <div className="d-sm-none">
             <Links />
           </div>
 
-          <div className="text-center text-sm-end d-none d-sm-block">
-            <p className="small d-inline me-3">
+          <div className="d-none d-sm-flex align-items-center">
+            <p className="small d-inline m-0">
               Join the community:
             </p>
 
-            <ul className="list-inline lead d-inline">
-              <li className="list-inline-item mx-2">
-                <Link href="https://twitter.com/2piNetwork">
-                  <a className="text-white text-decoration-none opacity-75" target="_blank" rel="noreferrer" title="Tweet us!">
-                    <i className="bi-twitter"></i>
-                  </a>
-                </Link>
+            <ul className="list-inline m-0">
+              <li className="list-inline-item ms-3">
+                <a className="text-white opacity-75" title="Tweet us!"
+                   href="https://twitter.com/2piNetwork"
+                   target="_blank" rel="noreferrer">
+                  <i className="bi-twitter fs-5"></i>
+                </a>
               </li>
-              <li className="list-inline-item mx-2">
-                <Link href="https://discord.com/invite/h8VG2XcwvT">
-                  <a className="text-white text-decoration-none opacity-75" target="_blank" rel="noreferrer" title="Talk with us!">
-                    <i className="bi-discord"></i>
-                  </a>
-                </Link>
+
+              <li className="list-inline-item ms-3">
+                <a className="text-white opacity-75" title="Talk with us!"
+                   href="https://discord.com/invite/h8VG2XcwvT"
+                   target="_blank" rel="noreferrer">
+                  <i className="bi-discord fs-5"></i>
+                </a>
               </li>
-              <li className="list-inline-item mx-2">
-                <Link href="https://2pifinance.medium.com">
-                  <a className="text-white text-decoration-none opacity-75" target="_blank" rel="noreferrer" title="Read us!">
-                    <i className="bi-medium"></i>
-                  </a>
-                </Link>
+
+              <li className="list-inline-item ms-3">
+                <a className="text-white opacity-75" title="Read us!"
+                   href="https://2pinetwork.medium.com"
+                   target="_blank" rel="noreferrer">
+                  <i className="bi-medium fs-5"></i>
+                </a>
               </li>
-              <li className="list-inline-item ms-2">
-                <Link href="mailto:hello@2pi.network">
-                  <a className="text-white text-decoration-none opacity-75" title="Email us!">
-                    <i className="bi-envelope"></i>
-                  </a>
-                </Link>
+
+              <li className="list-inline-item ms-3">
+                <a className="text-white opacity-75" title="Inspect us!"
+                   href="https://github.com/2pinetwork"
+                   target="_blank" rel="noreferrer">
+                  <i className="bi-github fs-5"></i>
+                </a>
+              </li>
+
+              <li className="list-inline-item ms-3">
+                <a className="text-white opacity-75" title="Learn with us!"
+                   href="https://docs.2pi.network"
+                   target="_blank" rel="noreferrer">
+                  <i className="bi-file-text fs-5"></i>
+                </a>
               </li>
             </ul>
           </div>

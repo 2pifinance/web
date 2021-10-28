@@ -1,46 +1,39 @@
 import React from 'react'
 import Link from 'next/link'
 
-const Header = () => (
+const Links = () => (
   <React.Fragment>
-    <p className="mb-2 small text-center opacity-75">
+    <p className="small text-center opacity-75 mb-3">
       Join the community:
     </p>
 
     <div className="d-flex justify-content-center pb-2">
-      <div className="mx-4">
-        <Link href="https://twitter.com/2piNetwork">
-          <a className="h2 text-white text-decoration-none" target="_blank" rel="noreferrer" title="Tweet us!">
-            <i className="bi-twitter"></i>
-          </a>
-        </Link>
-      </div>
+      <a className="h2 text-white mx-4" title="Tweet us!"
+         href="https://twitter.com/2piNetwork" target="_blank" rel="noreferrer">
+        <i className="bi-twitter"></i>
+      </a>
 
-      <div className="mx-4">
-        <Link href="https://discord.com/invite/h8VG2XcwvT">
-          <a className="h2 text-white text-decoration-none" target="_blank" rel="noreferrer" title="Talk with us!">
-            <i className="bi-discord"></i>
-          </a>
-        </Link>
-      </div>
+      <a className="h2 text-white mx-4" title="Talk with us!"
+         href="https://discord.com/invite/h8VG2XcwvT" target="_blank" rel="noreferrer">
+        <i className="bi-discord"></i>
+      </a>
 
-      <div className="mx-4">
-        <Link href="https://2pifinance.medium.com">
-          <a className="h2 text-white text-decoration-none" target="_blank" rel="noreferrer" title="Read us!">
-            <i className="bi-medium"></i>
-          </a>
-        </Link>
-      </div>
+      <a className="h2 text-white mx-4" title="Read us!"
+         href="https://2pinetwork.medium.com" target="_blank" rel="noreferrer">
+        <i className="bi-medium"></i>
+      </a>
 
-      <div className="mx-4">
-        <Link href="mailto:hello@2pi.network">
-          <a className="h2 text-white text-decoration-none" title="Email us!">
-            <i className="bi-envelope"></i>
-          </a>
-        </Link>
-      </div>
+      <a className="h2 text-white mx-4" title="Inspect us!"
+         href="https://github.com/2pinetwork" target="_blank" rel="noreferrer">
+        <i className="bi-github"></i>
+      </a>
+
+      <a className="h2 text-white mx-4" title="Learn with us!"
+         href="https://docs.2pi.network" target="_blank" rel="noreferrer" >
+        <i className="bi-file-text"></i>
+      </a>
     </div>
   </React.Fragment>
 )
 
-export default Header
+export default Links
