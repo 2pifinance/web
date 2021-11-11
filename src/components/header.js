@@ -102,7 +102,7 @@ const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://2pifinance.medium.com/">
+                    <Link href="https://2pinetwork.medium.com/">
                       <a className="dropdown-item" target="_blank">
                         Medium
                       </a>
