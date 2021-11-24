@@ -10,7 +10,7 @@ const Modal = () => {
         <div className="modal-content bg-black rounded">
           <div className="modal-body p-5">
             <h1 className="modal-title h3 monospace text-center text-success mb-md-3 mx-lg-5">
-              Try our new dApp version on Mumbai Testnet
+              Try our new dApp version on Polygon and Avalanche testnets
             </h1>
 
             <button className="btn-close btn-close-white position-absolute top-0 end-0 m-3"
