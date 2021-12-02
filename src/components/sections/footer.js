@@ -16,23 +16,11 @@ const FooterSection = () => (
         </div>
       </div>
 
-      <h3 className="h4 monospace text-center mt-4">
-        Ready to get started?
-      </h3>
-
       <div className="mt-4 pb-4 text-center">
-        <Link href="https://app.2pi.network">
-          <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4 ms-auto mt-n2" title="Launch app">
-            <div className="d-flex">
-              <div className="me-2 mt-1 mb-n1">
-                <Image src="/images/icons/rocket.svg" alt="Rocket" width="18" height="18" unoptimized={true} />
-              </div>
-              <div>
-                Launch App
-              </div>
-            </div>
-          </a>
-        </Link>
+        <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4 ms-auto mt-n2"
+           href="https://discord.com/invite/h8VG2XcwvT" target="_blank" rel="noreferrer">
+          Join us on Discord
+        </a>
       </div>
 
       <div className="hr w-100 my-5"></div>
@@ -77,18 +65,23 @@ const FooterSection = () => (
       <hr className="mt-5 mb-3" />
 
       <div className="row">
-        <div className="col-sm text-center text-sm-start">
-          <p className="small text-nowrap">
+        <div className="col-md d-flex align-items-center justify-content-center justify-content-md-start mb-4 mb-md-0">
+          <p className="small text-nowrap m-0">
             ©2021 2PI Ltd.
           </p>
+
+          <a className="btn btn-outline-light btn-sm rounded-pill px-4 ms-4"
+             href="https://app.2pi.network" title="Launch legacy app">
+             Launch Legacy App
+          </a>
         </div>
 
-        <div className="col-sm-auto text-end mt-sm-n1">
-          <div className="d-sm-none">
+        <div className="col-md-auto text-end mt-sm-n1">
+          <div className="d-md-none">
             <Links />
           </div>
 
-          <div className="d-none d-sm-flex align-items-center">
+          <div className="d-none d-md-flex align-items-center">
             <p className="small d-inline m-0">
               Join the community:
             </p>
