@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import Links from '../links'
 import Spaceship from '../spaceship'
 
@@ -71,7 +70,8 @@ const FooterSection = () => (
           </p>
 
           <a className="btn btn-outline-light btn-sm rounded-pill px-4 ms-4"
-             href="https://app.2pi.network" title="Launch legacy app">
+             href="https://app.2pi.network" target="_blank" rel="noreferrer"
+             title="Launch legacy app">
              Launch Legacy App
           </a>
         </div>

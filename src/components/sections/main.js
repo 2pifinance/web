@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import APY from '../apy'
 import AstroboyJump from '../astroboy/jump'
 import Header from '../header'
@@ -35,11 +34,11 @@ const MainSection = () => (
           </p>
 
           <p className="text-center mb-0">
-            <Link href="https://pjtl5731h0l.typeform.com/to/lm3ovT3a">
-              <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4" title="Devs API" target="_blank">
-                Get API Keys
-              </a>
-            </Link>
+            <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4"
+               href="https://pjtl5731h0l.typeform.com/to/lm3ovT3a"
+               target="_blank" rel="noreferrer" title="Devs API">
+              Get API Keys
+            </a>
           </p>
         </div>
       </div>
