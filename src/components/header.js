@@ -88,43 +88,38 @@ const Header = () => {
 
                 <ul className="dropdown-menu bg-blur border-alpha text-end dropdown-menu-end" aria-labelledby="community-menu">
                   <li>
-                    <Link href="https://twitter.com/2piNetwork">
-                      <a className="dropdown-item" target="_blank">
-                        Twitter
-                      </a>
-                    </Link>
+                    <a className="dropdown-item" target="_blank" rel="noreferrer"
+                       href="https://twitter.com/2piNetwork">
+                      Twitter
+                    </a>
                   </li>
                   <li>
-                    <Link href="https://discord.com/invite/h8VG2XcwvT">
-                      <a className="dropdown-item" target="_blank">
-                        Discord
-                      </a>
-                    </Link>
+                    <a className="dropdown-item" target="_blank" rel="noreferrer"
+                       href="https://discord.com/invite/h8VG2XcwvT">
+                      Discord
+                    </a>
                   </li>
                   <li>
-                    <Link href="https://2pinetwork.medium.com/">
-                      <a className="dropdown-item" target="_blank">
-                        Medium
-                      </a>
-                    </Link>
+                    <a className="dropdown-item" target="_blank" rel="noreferrer"
+                       href="https://2pinetwork.medium.com/">
+                      Medium
+                    </a>
                   </li>
                   <li>
-                    <Link href="https://docs.2pi.network/">
-                      <a className="dropdown-item" target="_blank">
-                        Docs
-                      </a>
-                    </Link>
+                    <a className="dropdown-item" target="_blank" rel="noreferrer"
+                       href="https://docs.2pi.network/">
+                      Docs
+                    </a>
                   </li>
                 </ul>
               </li>
             </ul>
 
-            <Link href="https://pjtl5731h0l.typeform.com/to/lm3ovT3a">
-              <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4 ms-3 mt-n2"
-                 title="Devs API" target="_blank">
-                Get API Keys
-              </a>
-            </Link>
+            <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4 ms-3 mt-n2"
+               href="https://pjtl5731h0l.typeform.com/to/lm3ovT3a"
+               target="_blank" rel="noreferrer" title="Devs API">
+              Get API Keys
+            </a>
           </div>
         </div>
       </nav>
@@ -180,7 +175,8 @@ const Header = () => {
 
             <div data-bs-dismiss="offcanvas" data-bs-target="#menu">
               <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4 mt-4"
-                 title="Devs API" target="_blank">
+                 href="https://pjtl5731h0l.typeform.com/to/lm3ovT3a"
+                 target="_blank" rel="noreferrer" title="Devs API">
                 Get API Keys
               </a>
             </div>

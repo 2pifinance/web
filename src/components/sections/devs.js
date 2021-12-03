@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import AstroboyRoll from '../astroboy/roll'
 import AstroboyRide from '../astroboy/ride'
 import Code from '../code'
@@ -26,18 +25,18 @@ const DevsSection = () => (
           </p>
 
           <div className="mb-1">
-            <Link href="https://pjtl5731h0l.typeform.com/to/lm3ovT3a" target="_blank">
-              <a className="text-success text-decoration-none">
-                <div className="d-flex">
-                  <div className="ms-2 mt-n3 ms-n4 me-n2">
-                    <Image src="/images/icons/chevron_right.svg" alt="Right" width="72" height="72" unoptimized={true} />
-                  </div>
-                  <div className="mt-1 ms-n1">
-                    Read our API documentation
-                  </div>
+            <a className="text-success text-decoration-none"
+               href="https://pjtl5731h0l.typeform.com/to/lm3ovT3a"
+               target="_blank" rel="noreferrer" title="Devs API">
+              <div className="d-flex">
+                <div className="ms-2 mt-n3 ms-n4 me-n2">
+                  <Image src="/images/icons/chevron_right.svg" alt="Right" width="72" height="72" unoptimized={true} />
                 </div>
-              </a>
-            </Link>
+                <div className="mt-1 ms-n1">
+                  Read our API documentation
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -117,11 +116,11 @@ const DevsSection = () => (
       </div>
 
       <p className="text-center mb-0">
-        <Link href="https://pjtl5731h0l.typeform.com/to/lm3ovT3a">
-          <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4" title="Devs API" target="_blank">
-            Get API Keys
-          </a>
-        </Link>
+        <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4"
+            href="https://pjtl5731h0l.typeform.com/to/lm3ovT3a"
+            target="_blank" rel="noreferrer" title="Devs API">
+          Get API Keys
+        </a>
       </p>
 
       <div className="hr w-100 my-5"></div>
