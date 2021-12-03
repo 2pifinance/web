@@ -119,16 +119,10 @@ const Header = () => {
               </li>
             </ul>
 
-            <Link href="https://app.2pi.network">
-              <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4 ms-3 mt-n2" title="Launch app">
-                <div className="d-flex">
-                  <div className="me-2 mt-1 mb-n1">
-                    <Image src="/images/icons/rocket.svg" alt="Rocket" width="18" height="18" unoptimized={true} />
-                  </div>
-                  <div>
-                    Launch App
-                  </div>
-                </div>
+            <Link href="https://pjtl5731h0l.typeform.com/to/lm3ovT3a">
+              <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4 ms-3 mt-n2"
+                 title="Devs API" target="_blank">
+                Get API Keys
               </a>
             </Link>
           </div>
@@ -185,18 +179,10 @@ const Header = () => {
             <hr className="my-0" />
 
             <div data-bs-dismiss="offcanvas" data-bs-target="#menu">
-              <Link href="https://app.2pi.network">
-                <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4 mt-4" title="Launch app">
-                  <div className="d-flex">
-                    <div className="me-2 mt-1 mb-n1">
-                      <Image src="/images/icons/rocket.svg" alt="Rocket" width="18" height="18" unoptimized={true} />
-                    </div>
-                    <div>
-                      Launch App
-                    </div>
-                  </div>
-                </a>
-              </Link>
+              <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4 mt-4"
+                 title="Devs API" target="_blank">
+                Get API Keys
+              </a>
             </div>
 
             <div className="fixed-bottom pb-4">
