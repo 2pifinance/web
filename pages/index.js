@@ -1,15 +1,13 @@
 import React from 'react'
-import Meta from '../src/components/meta'
-import MainSection from '../src/components/sections/main'
-import DevsSection from '../src/components/sections/devs'
-import FooterSection from '../src/components/sections/footer'
+import Meta from '../src/components/Meta'
+import Header from '../src/features/home/Header'
+import Footer from '../src/features/home/Footer'
 
 const Home = () => (
   <React.Fragment>
     <Meta />
-    <MainSection />
-    <DevsSection />
-    <FooterSection />
+    <Header />
+    <Footer />
   </React.Fragment>
 )
 

@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Script from 'next/script'
 
-const Home = () => (
+const Meta = () => (
   <React.Fragment>
     <Head>
       <title>2PI</title>
@@ -29,4 +29,4 @@ const Home = () => (
   </React.Fragment>
 )
 
-export default Home
+export default Meta
