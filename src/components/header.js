@@ -52,17 +52,11 @@ const Header = () => {
                   </a>
                 </Link>
               </li>
+
               <li className="nav-item">
                 <Link href="#devs">
                   <a className="nav-link" title="For Developers">
                     For Developers
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link href="#footer">
-                  <a className="nav-link" title="For DeFi Users">
-                    For DeFi Users
                   </a>
                 </Link>
               </li>
@@ -153,20 +147,6 @@ const Header = () => {
                    data-bs-target="#menu"
                    onClick={goToDelayedLocation}>
                   For Developers
-                </a>
-              </Link>
-            </p>
-
-            <hr className="my-0" />
-
-            <p className="mb-0">
-              <Link href="#footer">
-                <a className="d-block text-white text-decoration-none py-3"
-                   title="For DeFi Users"
-                   data-bs-dismiss="offcanvas"
-                   data-bs-target="#menu"
-                   onClick={goToDelayedLocation}>
-                  For DeFi Users
                 </a>
               </Link>
             </p>
