@@ -1,29 +1,9 @@
 import Image from 'next/image'
 import Links from '../links'
-import Spaceship from '../spaceship'
 
 const FooterSection = () => (
-  <section id="footer" className="pb-3">
+  <section id="footer" className="py-3">
     <div className="container">
-      <h2 className="h3 monospace text-center my-4">
-        Hey DeFi user,<br />join our community
-      </h2>
-
-      <div className="row justify-content-center">
-        <div className="col-lg-9 col-xl-8 col-xxl-7">
-          <Spaceship />
-        </div>
-      </div>
-
-      <div className="mt-4 pb-4 text-center">
-        <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4 ms-auto mt-n2"
-           href="https://discord.com/invite/h8VG2XcwvT" target="_blank" rel="noreferrer">
-          Join us on Discord
-        </a>
-      </div>
-
-      <div className="hr w-100 my-5"></div>
-
       <h2 className="h3 monospace text-center my-4">
         Strategic Backers
       </h2>
