@@ -26,14 +26,14 @@ const DevsSection = () => (
 
           <div className="mb-1">
             <a className="text-success text-decoration-none"
-               href="https://pjtl5731h0l.typeform.com/to/lm3ovT3a"
+               href="https://2pi.gitbook.io/2pi-documentation/"
                target="_blank" rel="noreferrer" title="Devs API">
               <div className="d-flex">
                 <div className="ms-2 mt-n3 ms-n4 me-n2">
                   <Image src="/images/icons/chevron_right.svg" alt="Right" width="72" height="72" unoptimized={true} />
                 </div>
                 <div className="mt-1 ms-n1">
-                  Read our API documentation
+                  Read our documentation
                 </div>
               </div>
             </a>
@@ -117,7 +117,7 @@ const DevsSection = () => (
 
       <p className="text-center mb-0">
         <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4"
-            href="https://pjtl5731h0l.typeform.com/to/lm3ovT3a"
+            href="https://2pi.gitbook.io/2pi-documentation/getting-credentials"
             target="_blank" rel="noreferrer" title="Devs API">
           Get API Keys
         </a>
