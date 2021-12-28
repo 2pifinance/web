@@ -35,7 +35,7 @@ const MainSection = () => (
 
           <p className="text-center mb-0">
             <a className="btn btn-primary btn-gradient rounded-pill border-0 px-4"
-               href="https://pjtl5731h0l.typeform.com/to/lm3ovT3a"
+               href="https://2pi.gitbook.io/2pi-documentation/getting-credentials"
                target="_blank" rel="noreferrer" title="Devs API">
               Get API Keys
             </a>
