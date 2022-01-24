@@ -46,7 +46,7 @@ const FooterSection = () => (
       <div className="row">
         <div className="col-md d-flex align-items-center justify-content-center justify-content-md-start mb-4 mb-md-0">
           <p className="small text-nowrap m-0">
-            ©2021 2PI Ltd.
+            ©2022 2PI Ltd.
           </p>
 
           <a className="btn btn-outline-light btn-sm rounded-pill px-4 ms-4"
