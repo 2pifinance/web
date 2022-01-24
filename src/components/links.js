@@ -32,6 +32,11 @@ const Links = () => (
          href="https://docs.2pi.network" target="_blank" rel="noreferrer" >
         <i className="bi-file-text"></i>
       </a>
+
+      <a className="h2 text-white mx-4" title="Report issues!"
+         href="https://github.com/2pinetwork/security/blob/master/bug-bounty.md" target="_blank" rel="noreferrer" >
+        <i className="bi-bug"></i>
+      </a>
     </div>
   </React.Fragment>
 )

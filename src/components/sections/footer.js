@@ -106,6 +106,14 @@ const FooterSection = () => (
                   <i className="bi-file-text fs-5"></i>
                 </a>
               </li>
+
+              <li className="list-inline-item ms-3">
+                <a className="text-white opacity-75" title="Report issues!"
+                   href="https://github.com/2pinetwork/security/blob/master/bug-bounty.md"
+                   target="_blank" rel="noreferrer">
+                  <i className="bi-bug fs-5"></i>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
