@@ -105,6 +105,13 @@ const Header = () => {
                       Docs
                     </a>
                   </li>
+
+                  <li>
+                    <a className="dropdown-item" target="_blank" rel="noreferrer"
+                       href="https://github.com/2pinetwork/security/blob/master/bug-bounty.md">
+                      Bug bounty
+                    </a>
+                  </li>
                 </ul>
               </li>
             </ul>
