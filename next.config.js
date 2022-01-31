@@ -1,6 +1,7 @@
 const path = require('path')
 
 module.exports = {
+  exportTrailingSlash: true,
   images: {
     loader: 'custom'
   },
