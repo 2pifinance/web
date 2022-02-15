@@ -45,13 +45,6 @@ const MainSection = () => (
 
       <div className="row justify-content-center my-5">
         <div className="col-sm-4 col-lg-3 col-xl-2 text-center">
-          <APY />
-
-          <p className="small">
-            Average yield on stablecoins
-          </p>
-        </div>
-        <div className="col-sm-4 col-lg-3 col-xl-2 offset-sm-2 offset-lg-1 text-center">
           <div className="d-flex justify-content-center">
             <div className="mt-1 mt-xl-2 me-2">
               <Image src="/images/protocols/aave.svg" alt="Aave" width="91" height="26" unoptimized={true} />
